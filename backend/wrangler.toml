@@ -1,14 +1,13 @@
-name = "backend"
+name = "quillcraft_backend"
 compatibility_date = "2023-12-01"
+
 [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZjc0NTczY2QtYWZiMy00Mzk2LTllZDYtMzA5MDAyOTgxMmNmIiwidGVuYW50X2lkIjoiNjI3ZDRkZjJjYTJhZGUwYmY4YzNhYmNlYWMwYjk1ODFiM2U1YWRiYmEzNmNlNjgwMzkwOGNlYjk3M2JmZDg4OSIsImludGVybmFsX3NlY3JldCI6ImI3MDA0Y2E4LWEyYTUtNDI4Zi1hMThhLTZhYzQwYTI2Y2JjZCJ9.XI5o_rxww5NRxXTJRX3Whr356Qcg2SekO2AR0t5CKaE"
-
-JWT_SECRET  = "SECRETT123"
-
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNjUzNmRkYzAtNDkyNi00YTI1LTgzODYtYzJkYWIzODI2ZTk3IiwidGVuYW50X2lkIjoiNjI3ZDRkZjJjYTJhZGUwYmY4YzNhYmNlYWMwYjk1ODFiM2U1YWRiYmEzNmNlNjgwMzkwOGNlYjk3M2JmZDg4OSIsImludGVybmFsX3NlY3JldCI6ImI3MDA0Y2E4LWEyYTUtNDI4Zi1hMThhLTZhYzQwYTI2Y2JjZCJ9.xaHv34BvifXMnAvlSufcaQQM_KVV7xiZT9YKUO2DxqI"
+JWT_SECRET = "Abc121"
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
- 
+
 # [[r2_buckets]]
 # binding = "MY_BUCKET"
 # bucket_name = "my-bucket"
