@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://quillcraft_backend.betweenthree21.workers.dev"
