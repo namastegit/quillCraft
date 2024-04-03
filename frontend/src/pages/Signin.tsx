@@ -1,15 +1,15 @@
-import { QuoteCom } from "../components/Quote_sigup";
-import { Authsignup } from "../components/authsignup";
+import { Auth } from "../components/Auth"
+import { Quote } from "../components/Quote"
 
-export function Signin() {
+export const Signin = () => {
     return <div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="flex justify-center">
-                <Authsignup type="Sign in"/>
+            <div>
+                <Auth type="signin" />
             </div>
-            <div className="invisible lg:visible">  <QuoteCom type="Sign in"/></div>
-      
+            <div className="hidden lg:block">
+                <Quote type="signin" />
+            </div>
         </div>
-    
-      </div>
+    </div>
 }
